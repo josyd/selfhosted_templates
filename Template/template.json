@@ -17,24 +17,24 @@
     "volumes": [
       {
         "container": "/music",
-        "bind": "/srv/dev-disk-by-label-media/Music"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/Music"
 
       },
       {
         "container": "/playlists",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Airsonic/Playlists"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Airsonic/Playlists"
       },
       {
         "container": "/podcasts",
-        "bind": "/srv/dev-disk-by-label-media/Podcasts"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/Podcasts"
       },
       {
         "container": "/media",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Airsonic/Media"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Airsonic/Media"
       },
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Airsonic/"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Airsonic/"
       }
     ],
     "env": [
@@ -81,7 +81,7 @@
     "volumes": [
       {
         "container": "/etc/authelia/",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Authelia"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Authelia"
       }
     ],
     "env": [
@@ -110,15 +110,15 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Bazarr"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Bazarr"
       },
       {
         "container": "/tv",
-        "bind": "/srv/dev-disk-by-label-media/TV"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/TV"
       },
       {
         "container": "/movies",
-        "bind": "/srv/dev-disk-by-label-media/Movies"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/Movies"
       }
     ],
     "env": [
@@ -156,15 +156,15 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Beets"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Beets"
       },
       {
         "container": "/downloads",
-        "bind": "/srv/dev-disk-by-label-media/Downloads"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/downloads"
       },
       {
         "container": "/music",
-        "bind": "/srv/dev-disk-by-label-media/Music"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/Music"
       }
     ],
     "env": [
@@ -200,7 +200,7 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Bitwarden-rs"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Bitwarden-rs"
       }
     ]
   },
@@ -223,15 +223,15 @@
     "volumes": [
       {
         "container": "/books",
-        "bind": "/srv/dev-disk-by-label-media/Books"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/Books"
       },
       {
         "container": "/podcast",
-        "bind": "/srv/dev-disk-by-label-media/Files/Podcasts"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/Podcasts"
       },
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Booksonic"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Booksonic"
       }
     ],
     "env": [
@@ -314,11 +314,11 @@
     "volumes": [
       {
         "container": "/books",
-        "bind": "/srv/dev-disk-by-label-media/Books"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/Books"
       },
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Cops"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Cops"
       }
     ],
     "env": [
@@ -353,11 +353,11 @@
     "volumes": [
       {
         "container": "/books",
-        "bind": "/srv/dev-disk-by-label-media/Books"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/Books"
       },
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Calibre-web"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Calibre-web"
       }
     ],
     "env": [
@@ -391,7 +391,7 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Cardigann"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Cardigann"
       }
     ],
     "env": [
@@ -486,7 +486,7 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Chowdown"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Chowdown"
       }
     ]
   },
@@ -538,7 +538,7 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Code-Server"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Code-Server"
       }
     ]
   },
@@ -560,7 +560,7 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Codiad"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Codiad"
       }
     ],
     "env": [
@@ -597,15 +597,15 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Couchpotato"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Couchpotato"
       },
       {
         "container": "/downloads",
-        "bind": "/srv/dev-disk-by-label-media/Downloads"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/downloads"
       },
       {
         "container": "/movies",
-        "bind": "/srv/dev-disk-by-label-media/Movies"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/Movies"
       }
     ],
     "env": [
@@ -636,11 +636,11 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Daapd"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Daapd"
       },
       {
         "container": "/music",
-        "bind": "/srv/dev-disk-by-label-media/Music"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/Music"
       }
     ],
     "env": [
@@ -675,7 +675,7 @@
     "volumes": [
       {
         "container": "/dashmachine/dashmachine/user_data",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Dashmachine"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Dashmachine"
       }
     ]
   },
@@ -699,11 +699,11 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Davos"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Davos"
       },
       {
         "container": "/downloads",
-        "bind": "/srv/dev-disk-by-label-media/Downloads"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/downloads"
       }
     ],
     "env": [
@@ -738,11 +738,11 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/DeeMix"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/DeeMix"
       },
       {
         "container": "/downloads",
-        "bind": "/srv/dev-disk-by-label-media/Downloads"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/downloads"
       }
     ],
     "note": "Deemix may take a few minutes to install. Be sure to check the logs for details. Refer to <a href='https://notabug.org/RemixDevs/DeezloaderRemix/wiki/Login+via+userToken'>this page</a> for userToken details."
@@ -762,11 +762,11 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Deluge"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Deluge"
       },
       {
         "container": "/downloads",
-        "bind": "/srv/dev-disk-by-label-media/Downloads"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/downloads"
       }
     ],
     "env": [
@@ -808,7 +808,7 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Domoticz"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Domoticz"
       }
     ],
     "env": [
@@ -882,7 +882,7 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Duplicati"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Duplicati"
       },
       {
         "container": "/tmp"
@@ -928,15 +928,15 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Emby"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Emby"
       },
       {
         "container": "/data/tvshows",
-        "bind": "/srv/dev-disk-by-label-media/TV"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/TV"
       },
       {
         "container": "/data/movies",
-        "bind": "/srv/dev-disk-by-label-media/Movies"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/Movies"
       }
     ],
     "env": [
@@ -976,11 +976,11 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/FileBrowser"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/FileBrowser"
       },
       {
         "container": "/myfiles",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Config"
       }
     ]
   },
@@ -1002,7 +1002,7 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/freshrss"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/freshrss"
       }
     ],
     "env": [
@@ -1035,15 +1035,15 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Gazee"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Gazee"
       },
       {
         "container": "/comics",
-        "bind": "/srv/dev-disk-by-label-media/Comics"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/Comics"
       },
       {
         "container": "/mylar",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Gazee"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Gazee"
       }
     ],
     "env": [
@@ -1079,7 +1079,7 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Guacamole"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Guacamole"
       }
     ]
   },
@@ -1103,7 +1103,7 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Grocy"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Grocy"
       }
     ],
     "env": [
@@ -1143,7 +1143,7 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/HTPCmanager"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/HTPCmanager"
       }
     ],
     "env": [
@@ -1177,15 +1177,15 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Headphones"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Headphones"
       },
       {
-        "container": "/Downloads",
-        "bind": "/srv/dev-disk-by-label-media/Downloads"
+        "container": "/downloads",
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/downloads"
       },
       {
         "container": "/music",
-        "bind": "/srv/dev-disk-by-label-media/Music"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/Music"
       }
     ],
     "env": [
@@ -1222,7 +1222,7 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Heimdall"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Heimdall"
       }
     ],
     "env": [
@@ -1258,11 +1258,11 @@
     "volumes": [
       {
         "container": "/www/assets",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Homer/assets"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Homer/assets"
       },
       {
         "container": "/www/config.yml",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Homer"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Homer"
       }
     ]
   },
@@ -1285,11 +1285,11 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Jackett"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Jackett"
       },
       {
         "container": "/downloads",
-        "bind": "/srv/dev-disk-by-label-media/Downloads"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/downloads"
       }
     ],
     "env": [
@@ -1326,15 +1326,15 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Jelllyfin"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Jelllyfin"
       },
       {
         "container": "/data/tvshows",
-        "bind": "/srv/dev-disk-by-label-media/TV"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/TV"
       },
       {
         "container": "/data/movies",
-        "bind": "/srv/dev-disk-by-label-media/Movies"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/Movies"
       }
     ],
     "env": [
@@ -1373,7 +1373,7 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Kodi"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Kodi"
       }
     ],
     "env": [
@@ -1448,7 +1448,7 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/LetsEncrypt"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/LetsEncrypt"
       }
     ],
     "env": [
@@ -1518,7 +1518,7 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/LibreSpeed"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/LibreSpeed"
       }
     ]
   },
@@ -1543,11 +1543,11 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Lychee"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Lychee"
       },
       {
         "container": "/pictures",
-        "bind": "/srv/dev-disk-by-label-media/Pictures"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/Pictures"
       }
     ],
     "env": [
@@ -1582,7 +1582,7 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Mariadb"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Mariadb"
       }
     ],
     "env": [
@@ -1656,15 +1656,15 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Medusa"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Medusa"
       },
       {
         "container": "/tv",
-        "bind": "/srv/dev-disk-by-label-media/TV"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/TV"
       },
       {
         "container": "/downloads",
-        "bind": "/srv/dev-disk-by-label-media/Downloads"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/downloads"
       }
     ],
     "env": [
@@ -1764,11 +1764,11 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Mstream"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Mstream"
       },
       {
         "container": "/music",
-        "bind": "/srv/dev-disk-by-label-media/Downloads"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/downloads"
       }
     ]
   },
@@ -1797,15 +1797,15 @@
       },
       {
         "container": "/opt/murmur/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/Config/Murmur"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Murmur"
       },
       {
         "container": "/opt/murmur/data",
-        "bind": "/srv/dev-disk-by-label-media/Files/Murmur/data"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/Files/Murmur/data"
       },
       {
         "container": "/opt/murmur/log",
-        "bind": "/srv/dev-disk-by-label-media/Files/Murmur/log"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/Files/Murmur/log"
       }
     ],
     "env": [
@@ -1845,11 +1845,11 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/MusicBrainz"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/MusicBrainz"
       },
       {
         "container": "/data",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/MusicBrainz"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/MusicBrainz"
       }
     ],
     "env": [
@@ -1891,7 +1891,7 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Muximux"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Muximux"
       }
     ],
     "env": [
@@ -1926,15 +1926,15 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Mylar"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Mylar"
       },
       {
         "container": "/downloads",
-        "bind": "/srv/dev-disk-by-label-media/Downloads"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/downloads"
       },
       {
         "container": "/comics",
-        "bind": "/srv/dev-disk-by-label-media/Comics"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/Comics"
       }
     ],
     "env": [
@@ -1968,11 +1968,11 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Nzbget"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Nzbget"
       },
       {
         "container": "/downloads",
-        "bind": "/srv/dev-disk-by-label-media/Downloads"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/downloads"
       }
     ],
     "env": [
@@ -2008,11 +2008,11 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Nzbhydra2"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Nzbhydra2"
       },
       {
         "container": "/downloads",
-        "bind": "/srv/dev-disk-by-label-media/Downloads"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/downloads"
       }
     ],
     "env": [
@@ -2096,7 +2096,7 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Nginx"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Nginx"
       }
     ],
     "env": [
@@ -2133,7 +2133,7 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Nginx-Proxy"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Nginx-Proxy"
       }
     ]
   },
@@ -2156,7 +2156,7 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/OScam"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/OScam"
       }
     ],
     "env": [
@@ -2193,7 +2193,7 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Ombi"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Ombi"
       }
     ],
     "env": [
@@ -2229,7 +2229,7 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/OpenVPN-AS"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/OpenVPN-AS"
       }
     ],
     "env": [
@@ -2269,7 +2269,7 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Organizr"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Organizr"
       }
     ],
     "env": [
@@ -2303,15 +2303,15 @@
     "volumes": [
       {
         "container": "/Pictures",
-        "bind": "/srv/dev-disk-by-label-media/Pictures"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/Pictures"
       },
       {
         "container": "/Thumbs",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Photoshow/Thumbs"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Photoshow/Thumbs"
       },
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/PhotoShow"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/PhotoShow"
       }
     ],
     "env": [
@@ -2350,11 +2350,11 @@
     "volumes": [
       {
         "container": "/etc/pihole",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/PiHole"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/PiHole"
       },
       {
         "container": "/etc/dnsmasq.d",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/PiHole/DNS"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/PiHole/DNS"
       }
     ],
     "note": "When the installation is complete, navigate to your.ip.goes.here:1010/admin. Follow the article <a href='https://medium.com/@niktrix/getting-rid-of-systemd-resolved-consuming-port-53-605f0234f32f'>here</a> if you run into issues binding to port 53."
@@ -2377,7 +2377,7 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/PiWigo"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/PiWigo"
       }
     ],
     "env": [
@@ -2411,15 +2411,15 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Plex"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Plex"
       },
       {
         "container": "/tv",
-        "bind": "/srv/dev-disk-by-label-media/TV"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/TV"
       },
       {
         "container": "/movies",
-        "bind": "/srv/dev-disk-by-label-media/Movies"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/Movies"
       }
     ],
     "env": [
@@ -2461,7 +2461,7 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/PlexRequests"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/PlexRequests"
       }
     ],
     "env": [
@@ -2503,11 +2503,11 @@
     "volumes": [
       {
         "container": "/data",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/ProjectSend"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/ProjectSend"
       },
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/ProjectSend"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/ProjectSend"
       }
     ],
     "env": [
@@ -2546,7 +2546,7 @@
     "volumes": [
       {
         "container": "/root",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/ProtonMail-Bridge"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/ProtonMail-Bridge"
       }
     ]
   },
@@ -2569,11 +2569,11 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Pydio"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Pydio"
       },
       {
         "container": "/data",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Pydio"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Pydio"
       }
     ],
     "env": [
@@ -2607,7 +2607,7 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Quassel-core"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Quassel-core"
       }
     ],
     "env": [
@@ -2642,15 +2642,15 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Radarr"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Radarr"
       },
       {
         "container": "/downloads",
-        "bind": "/srv/dev-disk-by-label-media/Downloads"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/downloads"
       },
       {
         "container": "/movies",
-        "bind": "/srv/dev-disk-by-label-media/Movies"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/Movies"
       }
     ],
     "env": [
@@ -2685,7 +2685,7 @@
     "volumes": [
       {
         "container": "/usr/src/app",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/ReactiveResume"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/ReactiveResume"
       }
     ]
   },
@@ -2707,14 +2707,14 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Resilio-Sync"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Resilio-Sync"
       },
       {
         "container": "/sync"
       },
       {
         "container": "/downloads",
-        "bind": "/srv/dev-disk-by-label-media/Downloads"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/downloads"
       }
     ],
     "env": [
@@ -2749,15 +2749,15 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Sabnzbd"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Sabnzbd"
       },
       {
         "container": "/downloads",
-        "bind": "/srv/dev-disk-by-label-media/Downloads"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/downloads"
       },
       {
         "container": "/incomplete-downloads",
-        "bind": "/srv/dev-disk-by-label-media/Downloads/incomplete"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/downloads/incomplete"
       }
     ],
     "env": [
@@ -2792,7 +2792,7 @@
     "volumes": [
       {
         "container": "/srv/shiori",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Shiori"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Shiori"
       }
     ]
   },
@@ -2815,15 +2815,15 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/SickChill"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/SickChill"
       },
       {
         "container": "/downloads",
-        "bind": "/srv/dev-disk-by-label-media/Downloads"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/downloads"
       },
       {
         "container": "/tv",
-        "bind": "/srv/dev-disk-by-label-media/TV"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/TV"
       }
     ],
     "env": [
@@ -2858,15 +2858,15 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/SickGear"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/SickGear"
       },
       {
         "container": "/tv",
-        "bind": "/srv/dev-disk-by-label-media/TV"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/TV"
       },
       {
         "container": "/downloads",
-        "bind": "/srv/dev-disk-by-label-media/Downloads"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/downloads"
       }
     ],
     "env": [
@@ -2900,11 +2900,11 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Smokeping"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Smokeping"
       },
       {
         "container": "/data",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Smokeping"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Smokeping"
       }
     ],
     "env": [
@@ -2939,7 +2939,7 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Sonarr"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Sonarr"
       },
       {
         "container": "/dev/rtc",
@@ -2947,11 +2947,11 @@
       },
       {
         "container": "/tv",
-        "bind": "/srv/dev-disk-by-label-media/TV"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/TV"
       },
       {
         "container": "/downloads",
-        "bind": "/srv/dev-disk-by-label-media/Downloads"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/downloads"
       }
     ],
     "env": [
@@ -2990,7 +2990,7 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Syncthing"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Syncthing"
       },
       {
         "container": "/sync"
@@ -3028,11 +3028,11 @@
     "volumes": [
       {
         "container": "/logs",
-        "bind": "/srv/dev-disk-by-label-media/Logs"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Tautulli/Logs"
       },
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Tautulli"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Tautulli"
       }
     ],
     "env": [
@@ -3066,7 +3066,7 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/TheLounge"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/TheLounge"
       }
     ],
     "env": [
@@ -3101,7 +3101,7 @@
     "volumes": [
       {
         "container": "/var/lib/tiddlywiki",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/TiddlyWiki"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/TiddlyWiki"
       }
     ]
   },
@@ -3123,7 +3123,7 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/tt-rss"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/tt-rss"
       }
     ],
     "env": [
@@ -3158,11 +3158,11 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Transmission"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Transmission"
       },
       {
         "container": "/downloads",
-        "bind": "/srv/dev-disk-by-label-media/Files/Downloads"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/Files/downloads"
       },
       {
         "container": "/watch"
@@ -3202,7 +3202,7 @@
     "volumes": [
       {
         "container": "/data",
-        "bind": "/srv/dev-disk-by-label-media/Downloads"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/downloads"
       },
       {
         "container": "/etc/localtime",
@@ -3263,7 +3263,7 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/TVHeadend"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/TVHeadend"
       },
       {
         "container": "/recordings"
@@ -3354,7 +3354,7 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Unifi"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Unifi"
       }
     ],
     "env": [
@@ -3407,11 +3407,11 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/WebGrabPlus"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/WebGrabPlus"
       },
       {
         "container": "/data",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/WebGrabPlus"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/WebGrabPlus"
       }
     ],
     "env": [
@@ -3446,7 +3446,7 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Whoogle"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Whoogle"
       }
     ]
   },
@@ -3469,11 +3469,11 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Wikijs"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Wikijs"
       },
       {
         "container": "/data",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Wikijs/data"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Wikijs/data"
       }
     ]
   },
@@ -3496,23 +3496,23 @@
     "volumes": [
       {
         "container": "/app/appdata",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/YTDLM"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/YTDLM"
       },
       {
         "container": "/app/video",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Youtube/Video"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Youtube/Video"
       },
       {
         "container": "/app/subscriptions",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Youtube/Subscriptions"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Youtube/Subscriptions"
       },
       {
         "container": "/app/users",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Youtube/Users"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Youtube/Users"
       },
       {
         "container": "/app/audio",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Youtube/Audio"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Youtube/Audio"
       }
     ]
   },
@@ -3534,7 +3534,7 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/ZNC"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/ZNC"
       }
     ],
     "env": [
@@ -3569,15 +3569,15 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/Lidarr"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/Lidarr"
       },
       {
         "container": "/downloads",
-        "bind": "/srv/dev-disk-by-label-media/Downloads"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/downloads"
       },
       {
         "container": "/music",
-        "bind": "/srv/dev-disk-by-label-media/Music"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/Music"
       }
     ],
     "env": [
@@ -3613,11 +3613,11 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/qBittorrent"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/qBittorrent"
       },
       {
         "container": "/downloads",
-        "bind": "/srv/dev-disk-by-label-media/Downloads"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/downloads"
       }
     ],
     "env": [
@@ -3680,11 +3680,11 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/ruTorrent"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/appdata/ruTorrent"
       },
       {
         "container": "/downloads",
-        "bind": "/srv/dev-disk-by-label-media/Downloads"
+        "bind": "/srv/2f5f8e09-2b85-4a61-92c9-ffcd9c6ca449/downloads"
       }
     ],
     "env": [
